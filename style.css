@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(img/photography-of-night-sky-733475.jpg) center/cover
+    no-repeat;
+  color: antiquewhite;
+}
+
+.counter-box {
+  flex: 0 0 70%;
+  text-align: center;
+  padding: 1rem;
+  border: 3px solid goldenrod;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px 5px black;
+  border-radius: 8px;
+}
+
+.counter {
+  font-size: 6rem;
+}
+
+.btn {
+  background-color: antiquewhite;
+  border-radius: 8px;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0.25rem;
+  border: 3px solid goldenrod;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+.btn:hover {
+  background-color: salmon;
+  color: antiquewhite;
+}
+
+.btn:active {
+  box-shadow: none;
+}
